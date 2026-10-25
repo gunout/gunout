@@ -1,5 +1,5 @@
 <!-- ============================================================ -->
-<!--  GUNOUT — FUTURISTIC NEON ROSE PROFILE (PRO EDITION)         -->
+<!--  GUNOUT — FUTURISTIC NEON ROSE PROFILE                       -->
 <!-- ============================================================ -->
 
 <p align="center">
@@ -12,12 +12,22 @@
   </a>
 </p>
 
-<!-- CARTE MATRIX -->
+<!-- ========================================== -->
+<!--      CARTE MATRIX + TEXTE ANIMÉ            -->
+<!-- ========================================== -->
 <p align="center">
-  <a href="https://github.com/gunout">
-    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/profile_matrix.svg" alt="Matrix Profile Card" width="100%" />
-  </a>
+  <table>
+    <tr>
+      <td valign="middle" align="center">
+        <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/profile_matrix.svg" alt="Matrix Profile" width="400" />
+      </td>
+      <td valign="middle" align="left">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=1000&color=FF2D95&width=350&height=220&lines=GUNOUT;STATUS:+ONLINE;AGE:+44+Y/O;LOC:+REUNION+ISLAND;ROLE:+DEV+%26+AUTOMATION;SYS.VER:+2.3.3" alt="Typing SVG" />
+      </td>
+    </tr>
+  </table>
 </p>
+<!-- ========================================== -->
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=800&color=FF2D95&background=0D001A00&center=true&vCenter=true&random=true&width=800&lines=%E2%96%B6+Initializing+neon+protocol...;%E2%96%B6+Building+monitors+and+scrapers...;%E2%96%B6+Automating+veille+and+reporting...;%E2%96%B6+Shipping+projects+at+light+speed...;%E2%96%B6+System+online.+Welcome." alt="Typing SVG" />
@@ -27,28 +37,22 @@
   <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
 </p>
 
-<!-- ============================== -->
-<!--         BADGES PRO             -->
-<!-- ============================== -->
-
-<h2 align="center">🎖️ <code>certifications_&_badges</code></h2>
-
 <p align="center">
-  <!-- Remplacez les liens "#" par les vrais liens de vos certificats si vous en avez -->
-  <a href="#"><img src="https://img.shields.io/badge/Python-Expert-FF2D95?style=for-the-badge&logo=python&logoColor=white" alt="Python Expert" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Cybersecurity-Enthusiast-FF69B4?style=for-the-badge&logo=hackthebox&logoColor=white" alt="Cybersecurity" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Data_Scraping-Specialist-FFB6D9?style=for-the-badge&logo=scrapy&logoColor=white" alt="Data Scraping" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Linux-User-FF2D95?style=for-the-badge&logo=linux&logoColor=white" alt="Linux User" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Open_Source-Contributor-FF69B4?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source" /></a>
+  <a href="https://github.com/gunout/gunout">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/dark_mode_neon.svg">
+      <img alt="gunout's GitHub Profile README" src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/light_mode_neon.svg">
+    </picture>
+  </a>
+  <br/><br/>
+  <a href="https://u8views.com/github/gunout">
+    <img src="https://u8views.com/api/v1/github/profiles/88831335/views/day-week-month-total-count.svg" alt="Views" />
+  </a>
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
 </p>
-
-<!-- ============================== -->
-<!--         WHOAMI / BIO          -->
-<!-- ============================== -->
 
 <h2 align="center">⚡ <code>whoami</code></h2>
 
@@ -67,10 +71,6 @@
   <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
 </p>
 
-<!-- ============================== -->
-<!--      TECH STACK               -->
-<!-- ============================== -->
-
 <h2 align="center">🛠️ <code>tech_stack</code></h2>
 
 <p align="center">
@@ -85,10 +85,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
 </p>
-
-<!-- ============================== -->
-<!--      RECENT PROJECTS          -->
-<!-- ============================== -->
 
 <h2 align="center">🚀 <code>recent_projects</code></h2>
 
@@ -123,10 +119,6 @@
   <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
 </p>
 
-<!-- ============================== -->
-<!--      GITHUB STATS             -->
-<!-- ============================== -->
-
 <h2 align="center">📈 <code>github_stats</code></h2>
 
 <p align="center">
@@ -142,10 +134,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
 </p>
-
-<!-- ============================== -->
-<!--         SUPPORT & FOOTER      -->
-<!-- ============================== -->
 
   <br/><br/>
 
