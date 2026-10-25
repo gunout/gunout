@@ -2,17 +2,60 @@
     <defs>
       <style>
           @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&amp;display=swap');
+          
           .bg { fill: #0D001A; }
           .frame { fill: none; stroke: #FF2D95; stroke-width: 2; filter: drop-shadow(0 0 5px #FF2D95); }
           
-          .dot { fill: #FF2D95; font-family: monospace; font-size: 10px; font-weight: bold; }
-          .dot-dim { fill: #FF69B4; fill-opacity: 0.4; }
-          .dot-bright { fill: #FFB6D9; fill-opacity: 0.9; }
+          /* Animation de scintillement pour les points */
+          .dot { fill: #FF2D95; font-family: monospace; font-size: 10px; font-weight: bold; animation: flicker 4s infinite alternate; }
+          .dot-dim { fill: #FF69B4; fill-opacity: 0.4; animation: flicker 3s infinite alternate-reverse; }
+          .dot-bright { fill: #FFB6D9; fill-opacity: 0.9; animation: flicker 2s infinite alternate; }
           
           .title { font-family: 'Orbitron', monospace; font-weight: 700; fill: #FF2D95; }
           .text { font-family: 'Orbitron', monospace; font-weight: 400; fill: #FFB6D9; font-size: 14px; }
           .line { stroke: #FF69B4; stroke-width: 1; stroke-dasharray: 4; }
+          
+          /* Curseur clignotant */
+          .cursor { animation: blink 1s step-end infinite; fill: #FF2D95; }
+          
+          /* Animation machine à écrire en boucle */
+          .type-loop { 
+            opacity: 0; 
+            animation: typing-loop 8s steps(40, end) infinite; 
+            white-space: nowrap; 
+            overflow: hidden; 
+          }
+          
+          .delay-1 { animation-delay: 0s; }
+          .delay-2 { animation-delay: 1s; }
+          .delay-3 { animation-delay: 2s; }
+          .delay-4 { animation-delay: 3s; }
+          .delay-5 { animation-delay: 4s; }
+          .delay-6 { animation-delay: 5s; }
+          
+          @keyframes flicker {
+            0% { opacity: 0.8; }
+            50% { opacity: 1; }
+            100% { opacity: 0.9; }
+          }
+          @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+          }
+          @keyframes typing-loop {
+            0% { opacity: 0; width: 0; }
+            5% { opacity: 1; width: 0; }
+            20% { opacity: 1; width: 100%; }
+            80% { opacity: 1; width: 100%; }
+            90% { opacity: 0; width: 100%; }
+            100% { opacity: 0; width: 0; }
+          }
       </style>
+      
+      <!-- Zone de découpe pour la ligne de scan -->
+      <clipPath id="img-clip">
+        <rect x="20" y="20" width="800" height="576" rx="5" />
+      </clipPath>
     </defs>
     
     <rect width="100%" height="100%" class="bg" rx="10" />
@@ -2452,16 +2495,24 @@
         <text x="505" y="569" class="dot dot-dim" text-anchor="middle">.</text>
     </g>
 
-    <text x="860" y="60" class="title" font-size="24">GUNOUT</text>
-    <line x1="860" y1="70" x2="1060" y2="70" class="line" />
+    <g clip-path="url(#img-clip)">
+      <rect x="20" y="0" width="800" height="4" fill="#FF2D95" opacity="0.7" filter="drop-shadow(0 0 8px #FF2D95)">
+        <animate attributeName="y" from="20" to="596" dur="4s" repeatCount="indefinite" />
+      </rect>
+    </g>
     
-    <text x="860" y="110" class="text">STATUS: <tspan fill="#FF2D95">ONLINE</tspan></text>
-    <text x="860" y="140" class="text">AGE: 44 Y/O</text>
-    <text x="860" y="170" class="text">LOC: REUNION ISLAND</text>
-    <text x="860" y="200" class="text">ROLE: DEV &amp; AUTOMATION</text>
-    
-    <line x1="860" y1="220" x2="1060" y2="220" class="line" />
-    
-    <text x="860" y="250" class="text" font-size="12">SYS.VER: 2.3.3</text>
-    <text x="860" y="270" class="text" font-size="12">SECURE CONNECTION</text>
+    <g transform="translate(860, 0)">
+      <text x="0" y="60" class="title type-loop delay-1" font-size="24">GUNOUT</text>
+      
+      <text x="0" y="110" class="text type-loop delay-2">STATUS: <tspan fill="#FF2D95">ONLINE</tspan></text>
+      <text x="0" y="140" class="text type-loop delay-3">AGE: 44 Y/O</text>
+      <text x="0" y="170" class="text type-loop delay-4">LOC: REUNION ISLAND</text>
+      <text x="0" y="200" class="text type-loop delay-5">ROLE: DEV &amp; AUTOMATION</text>
+      
+      <line x1="0" y1="70" x2="200" y2="70" class="line type-loop delay-1" />
+      <line x1="0" y1="220" x2="200" y2="220" class="line type-loop delay-6" />
+      
+      <text x="0" y="250" class="text type-loop delay-6" font-size="12">SYS.VER: 2.3.3</text>
+      <text x="0" y="270" class="text type-loop delay-6" font-size="12">SECURE CONNECTION <tspan class="cursor">_</tspan></text>
+    </g>
     </svg>
