@@ -147,17 +147,6 @@
 <!--         SUPPORT & FOOTER      -->
 <!-- ============================== -->
 
-<div align="center">
-  <h3>💖 Support my work</h3>
-
-  <a href="https://ko-fi.com/gunout">
-    <img height='50' src='https://storage.ko-fi.com/cdn/kofi5.png?v=3' alt='Support me on Ko-fi' />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.buymeacoffee.com/gunout">
-    <img height='50' src='https://cdn.buymeacoffee.com/buttons/v2/default-blue.png' alt='Buy Me A Coffee' />
-  </a>
-
   <br/><br/>
 
   <picture>
