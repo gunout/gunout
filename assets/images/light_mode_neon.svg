@@ -16,6 +16,7 @@
     <filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect width="800" height="200" fill="url(#lg)" rx="16"/>
+  
   <g stroke="url(#la)" stroke-width="1.5" fill="none" filter="url(#glow)">
     <path d="M0 50 H800"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></path>
     <path d="M0 100 H800"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></path>

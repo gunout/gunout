@@ -54,6 +54,21 @@
   <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
 </p>
 
+<h2 align="center">🛠️ <code>tech_stack</code></h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/BackBoxIcon.svg" width="60" height="60" alt="BackBox" title="BackBox Linux"/>
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/DockerIcon.svg" width="60" height="60" alt="Docker" title="Docker"/>
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/PythonIcon.svg" width="60" height="60" alt="Python" title="Python"/>
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/HTMLIcon.svg" width="60" height="60" alt="HTML5" title="HTML5"/>
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/CSSIcon.svg" width="60" height="60" alt="CSS3" title="CSS3"/>
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/JSIcon.svg" width="60" height="60" alt="JavaScript" title="JavaScript"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
 <h2 align="center">🚀 <code>recent_projects</code></h2>
 
 <p align="center">
