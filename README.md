@@ -12,22 +12,12 @@
   </a>
 </p>
 
-<!-- ========================================== -->
-<!--      CARTE MATRIX + TEXTE ANIMÉ            -->
-<!-- ========================================== -->
+<!-- CARTE MATRIX UNIQUEMENT -->
 <p align="center">
-  <table>
-    <tr>
-      <td valign="middle" align="center">
-        <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/profile_matrix.svg" alt="Matrix Profile" width="400" />
-      </td>
-      <td valign="middle" align="left">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=1000&color=FF2D95&width=350&height=220&lines=GUNOUT;STATUS:+ONLINE;AGE:+44+Y/O;LOC:+REUNION+ISLAND;ROLE:+DEV+%26+AUTOMATION;SYS.VER:+2.3.3" alt="Typing SVG" />
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/gunout">
+    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/profile_matrix.svg" alt="Matrix Profile Card" width="100%" />
+  </a>
 </p>
-<!-- ========================================== -->
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=800&color=FF2D95&background=0D001A00&center=true&vCenter=true&random=true&width=800&lines=%E2%96%B6+Initializing+neon+protocol...;%E2%96%B6+Building+monitors+and+scrapers...;%E2%96%B6+Automating+veille+and+reporting...;%E2%96%B6+Shipping+projects+at+light+speed...;%E2%96%B6+System+online.+Welcome." alt="Typing SVG" />
