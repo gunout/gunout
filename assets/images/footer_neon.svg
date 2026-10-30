@@ -17,7 +17,7 @@
   <rect width="1000" height="130" rx="14" fill="url(#grid)"/>
   <rect x="2" y="2" width="996" height="126" rx="12" fill="none" stroke="url(#txt)" stroke-width="2"/>
   <text x="500" y="58" text-anchor="middle" font-family="Orbitron, monospace" font-size="24" font-weight="700" fill="url(#txt)">&#9670; END OF TRANSMISSION &#9670;</text>
-  <text x="500" y="88" text-anchor="middle" font-family="monospace" font-size="13" fill="#00122E" opacity="0.85">bleu &#183; blanc &#183; rouge &#8212; system offline</text>
+  <text x="500" y="88" text-anchor="middle" font-family="monospace" font-size="13" fill="#00122E" opacity="0.85">system offline</text>
   <g transform="translate(500,105)">
     <circle cx="-24" cy="0" r="3.5" fill="#0055FF"/>
     <circle cx="0"   cy="0" r="3.5" fill="#00122E"/>
