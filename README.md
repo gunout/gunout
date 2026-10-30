@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-ONLINE-0055FF?style=flat-square&labelColor=00122E" alt="Status" />
   <img src="https://img.shields.io/badge/LOCATION-REUNION_ISLAND-E30613?style=flat-square&labelColor=00122E" alt="Location" />
-  <img src="https://img.shields.io/badge/AVAILABILITY-OPEN_TO_WORK-00122E?style=flat-square&labelColor=0055FF" alt="Availability" />
+  <img src="https://img.shields.io/badge/AVAILABILITY-HOMEWORK-00122E?style=flat-square&labelColor=0055FF" alt="Availability" />
 </p>
 
 <div align="center">
@@ -148,12 +148,6 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
 ## Contact
 
 <p align="center">
-  <a href="mailto:contact@example.com">
-    <img src="https://img.shields.io/badge/EMAIL-contact@example.com-E30613?style=for-the-badge&logo=gmail&logoColor=white&labelColor=00122E" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/GUNOUT">
-    <img src="https://img.shields.io/badge/LINKEDIN-GUNOUT-0055FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=00122E" alt="LinkedIn" />
-  </a>
   <a href="https://github.com/GUNOUT">
     <img src="https://img.shields.io/badge/GITHUB-GUNOUT-00122E?style=for-the-badge&logo=github&logoColor=white&labelColor=0055FF" alt="GitHub" />
   </a>
