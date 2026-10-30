@@ -19,6 +19,11 @@
   </a>
 </p>
 
+<!-- LATEST CONTRIBUTION -->
+<p align="center">
+  <img src="./assets/images/latest-contribution.svg" alt="Latest contribution: active" width="400" />
+</p>
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=800&color=0055FF&background=FFFFFF00&center=true&vCenter=true&random=true&width=800&lines=%E2%96%B6+Initializing+neon+protocol...;%E2%96%B6+Building+monitors+and+scrapers...;%E2%96%B6+Automating+veille+and+reporting...;%E2%96%B6+Shipping+projects+at+light+speed...;%E2%96%B6+System+online.+Welcome." alt="Typing SVG" />
 </p>
