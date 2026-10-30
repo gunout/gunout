@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="16" viewBox="0 0 900 16" preserveAspectRatio="none">
   <defs>
+    <!-- Dégradé de la ligne de base : blanc → rose → blanc -->
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="15%"  stop-color="#FFFFFF" stop-opacity="0.9"/>
@@ -10,6 +11,14 @@
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
 
+    <!-- Dégradé du faisceau de scan : blanc transparent → blanc opaque → blanc transparent -->
+    <linearGradient id="scan-beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow serré (double blur pour intensifier) -->
     <filter id="glow" x="-10%" y="-300%" width="120%" height="700%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
@@ -19,21 +28,43 @@
       </feMerge>
     </filter>
 
+    <!-- Glow large et diffus -->
     <filter id="soft-glow" x="-20%" y="-500%" width="140%" height="1100%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
     </filter>
+
+    <!-- Zone de clip pour que le scan reste confiné à la ligne -->
+    <clipPath id="line-clip">
+      <rect x="0" y="0" width="900" height="16"/>
+    </clipPath>
   </defs>
 
+  <!-- Fond blanc pour éviter le fond noir en dark mode -->
   <rect width="900" height="16" fill="#FFFFFF"/>
 
+  <!-- Halo diffus derrière (statique) -->
   <line x1="0" y1="8" x2="900" y2="8"
         stroke="url(#g)" stroke-width="5" stroke-linecap="round"
         opacity="0.45" filter="url(#soft-glow)"/>
 
+  <!-- Ligne principale lumineuse (statique) -->
   <line x1="0" y1="8" x2="900" y2="8"
         stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"
         filter="url(#glow)"/>
 
-  <circle cx="450" cy="8" r="2.5" fill="#FFFFFF" filter="url(#glow)"/>
-  <circle cx="450" cy="8" r="1.2" fill="#FF2D95"/>
+  <!-- Faisceau de scan animé (gauche → droite) -->
+  <g clip-path="url(#line-clip)">
+    <rect x="-150" y="2" width="150" height="12"
+          fill="url(#scan-beam)" opacity="0.85" filter="url(#glow)">
+      <animate attributeName="x" values="-150; 900" dur="4s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Point central lumineux (clignotant) -->
+  <g filter="url(#glow)">
+    <circle cx="450" cy="8" r="2.5" fill="#FFFFFF">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="450" cy="8" r="1.2" fill="#FF2D95"/>
+  </g>
 </svg>
