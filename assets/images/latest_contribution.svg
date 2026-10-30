@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="40" viewBox="0 0 400 40">
+  <defs>
+    <linearGradient id="lc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#F4F8FF"/>
+      <stop offset="100%" stop-color="#FFF3F3"/>
+    </linearGradient>
+    <linearGradient id="lc-edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0055FF"/>
+      <stop offset="50%"  stop-color="#00122E"/>
+      <stop offset="100%" stop-color="#E30613"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="40" rx="8" fill="url(#lc-bg)"/>
+  <rect x="1" y="1" width="398" height="38" rx="7" fill="none" stroke="url(#lc-edge)" stroke-width="1.5"/>
+  <circle cx="22" cy="20" r="4" fill="#E30613">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="200" y="26" text-anchor="middle" font-family="monospace" font-size="14">
+    <tspan fill="#00122E">Latest contribution: </tspan>
+    <tspan fill="#0055FF" font-weight="bold">active</tspan>
+  </text>
+</svg>

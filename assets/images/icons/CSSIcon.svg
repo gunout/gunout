@@ -4,9 +4,8 @@
       <stop offset="0%" stop-color="#0055FF"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <path d="M8 6h48l-4 46-20 6-20-6z" fill="url(#g)" filter="url(#glow)"/>
-  <path d="M32 14v42l16-5 3-37z" fill="#E30613" opacity="0.35"/>
+  <path d="M8 6h48l-4 46-20 6-20-6z" fill="url(#g)"/>
+  <path d="M32 14v42l16-5 3-37z" fill="#E30613" opacity="0.25"/>
   <path d="M20 22h24l-2 20-10 3-10-3-1-8h6l1 4 4 1 4-1 1-9H21" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
 </svg>

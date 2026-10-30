@@ -4,8 +4,7 @@
       <stop offset="0%" stop-color="#E30613"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect x="4" y="4" width="56" height="56" rx="8" fill="#00122E" stroke="#0055FF" stroke-width="2" filter="url(#glow)"/>
-  <text x="32" y="44" text-anchor="middle" font-family="Orbitron, monospace" font-size="24" font-weight="700" fill="url(#g)" filter="url(#glow)">JS</text>
+  <rect x="4" y="4" width="56" height="56" rx="8" fill="#F4F8FF" stroke="#0055FF" stroke-width="2"/>
+  <text x="32" y="44" text-anchor="middle" font-family="Orbitron, monospace" font-size="24" font-weight="700" fill="url(#g)">JS</text>
 </svg>

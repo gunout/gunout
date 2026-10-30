@@ -4,11 +4,10 @@
       <stop offset="0%" stop-color="#0055FF"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect x="6" y="10" width="52" height="40" rx="6" fill="#00122E" stroke="url(#g)" stroke-width="2.5" filter="url(#glow)"/>
-  <rect x="12" y="18" width="40" height="24" rx="3" fill="#0055FF" opacity="0.25"/>
-  <path d="M20 26l8 6-8 6" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
-  <rect x="32" y="34" width="12" height="3" rx="1.5" fill="#E30613" filter="url(#glow)"/>
+  <rect x="6" y="10" width="52" height="40" rx="6" fill="#F4F8FF" stroke="url(#g)" stroke-width="2.5"/>
+  <rect x="12" y="18" width="40" height="24" rx="3" fill="#0055FF" opacity="0.18"/>
+  <path d="M20 26l8 6-8 6" fill="none" stroke="#00122E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="32" y="34" width="12" height="3" rx="1.5" fill="#E30613"/>
   <rect x="22" y="54" width="20" height="4" rx="2" fill="#0055FF"/>
 </svg>
