@@ -1,5 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
   <defs>
+    <style>
+      @keyframes blink { 0%,100% { opacity:1 } 50% { opacity:0 } }
+      @keyframes fadeInOut {
+        0%   { opacity:0 }
+        10%  { opacity:1 }
+        85%  { opacity:1 }
+        95%  { opacity:0 }
+        100% { opacity:0 }
+      }
+      @keyframes pulse { 0%,100% { opacity:0.6 } 50% { opacity:1 } }
+      @keyframes grow { 0%,5% { width:0 } 44%,85% { width:560px } 95%,100% { width:0 } }
+      @keyframes cornerBlink { 0%,100% { opacity:0.4 } 50% { opacity:1 } }
+
+      .blink    { animation: blink 1s infinite; }
+      .fade1    { animation: fadeInOut 10s infinite; }
+      .fade2    { animation: fadeInOut 10s infinite; animation-delay: 0.5s; }
+      .fade3    { animation: fadeInOut 10s infinite; animation-delay: 1.0s; }
+      .fade4    { animation: fadeInOut 10s infinite; animation-delay: 1.5s; }
+      .fade5    { animation: fadeInOut 10s infinite; animation-delay: 2.0s; }
+      .fade6    { animation: fadeInOut 10s infinite; animation-delay: 2.5s; }
+      .fade7    { animation: fadeInOut 10s infinite; animation-delay: 3.0s; }
+      .fade8    { animation: fadeInOut 10s infinite; animation-delay: 3.5s; }
+      .pulse    { animation: pulse 3s infinite; }
+      .corner   { animation: cornerBlink 3s infinite; }
+      .corner2  { animation: cornerBlink 3s infinite; animation-delay: 0.5s; }
+      .corner3  { animation: cornerBlink 3s infinite; animation-delay: 1s; }
+      .corner4  { animation: cornerBlink 3s infinite; animation-delay: 1.5s; }
+      .bar      { animation: grow 10s infinite; }
+    </style>
+
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%"   stop-color="#F4F8FF"/>
       <stop offset="50%"  stop-color="#FFFFFF"/>
@@ -13,186 +43,60 @@
     <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
       <path d="M22 0H0V22" fill="none" stroke="#0055FF" stroke-opacity="0.08" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <!-- Fond + grille -->
   <rect width="1000" height="360" rx="18" fill="url(#bg)"/>
   <rect width="1000" height="360" rx="18" fill="url(#grid)"/>
 
-  <!-- Cadre néon -->
   <rect x="2" y="2" width="996" height="356" rx="16" fill="none"
-        stroke="url(#txt)" stroke-width="2" filter="url(#glow)">
-    <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
-  </rect>
+        stroke="url(#txt)" stroke-width="2" class="pulse"/>
 
-  <!-- Coins décoratifs -->
-  <g stroke="#E30613" stroke-width="3" fill="none" filter="url(#glow)">
-    <path d="M28 50 h30 M28 50 v30">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
-    </path>
-    <path d="M972 50 h-30 M972 50 v30">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="0.5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M28 310 h30 M28 310 v-30">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="1s" repeatCount="indefinite"/>
-    </path>
-    <path d="M972 310 h-30 M972 310 v-30">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-    </path>
+  <g stroke="#E30613" stroke-width="3" fill="none">
+    <path class="corner"  d="M28 50 h30 M28 50 v30"/>
+    <path class="corner2" d="M972 50 h-30 M972 50 v30"/>
+    <path class="corner3" d="M28 310 h30 M28 310 v-30"/>
+    <path class="corner4" d="M972 310 h-30 M972 310 v-30"/>
   </g>
 
-  <!-- Titre -->
   <text x="500" y="110" text-anchor="middle" font-family="Orbitron, monospace"
-        font-size="44" font-weight="700" fill="url(#txt)" filter="url(#glow)">
-    GUNOUT
-    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
-  </text>
-
-  <!-- Sous-titre -->
+        font-size="44" font-weight="700" fill="url(#txt)" class="pulse">GUNOUT</text>
   <text x="500" y="145" text-anchor="middle" font-family="Orbitron, monospace"
-        font-size="14" letter-spacing="6" fill="#00122E" opacity="0.85">
-    &#9670; LIGHT MODE &#9670;
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
-  </text>
+        font-size="14" letter-spacing="6" fill="#00122E" class="pulse">&#9670; LIGHT MODE &#9670;</text>
 
-  <!-- ============================================================ -->
-  <!-- PANNEAU GAUCHE : whoami — boucle "machine à écrire" 10s      -->
-  <!-- ============================================================ -->
+  <!-- Panneau gauche -->
   <g transform="translate(120,190)">
     <rect x="0" y="0" width="360" height="120" rx="12" fill="#FFFFFF"
-          stroke="#0055FF" stroke-width="2" filter="url(#glow)">
-      <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
-    </rect>
-
-    <!-- Ligne 1 : prompt whoami (visible de 0% à 85%, puis effacé) -->
-    <text x="20" y="34" font-family="monospace" font-size="14" fill="#0055FF">
-      &gt; whoami
-      <animate attributeName="opacity"
-               values="1;1;1;0"
-               keyTimes="0;0.05;0.85;0.95"
-               dur="10s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- Ligne 2 : Python / Automation -->
-    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">
-      Python &#183; Automation
-      <animate attributeName="opacity"
-               values="0;0;1;1;0"
-               keyTimes="0;0.10;0.18;0.85;0.95"
-               dur="10s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- Ligne 3 : Web / Data / Veille -->
-    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">
-      Web &#183; Data &#183; Veille
-      <animate attributeName="opacity"
-               values="0;0;1;1;0"
-               keyTimes="0;0.18;0.26;0.85;0.95"
-               dur="10s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- Ligne 4 : status ONLINE -->
-    <text x="20" y="102" font-family="monospace" font-size="13" fill="#E30613">
-      &#9656; status: ONLINE
-      <animate attributeName="opacity"
-               values="0;0;1;1;0"
-               keyTimes="0;0.26;0.34;0.85;0.95"
-               dur="10s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- Curseur clignotant -->
-    <text x="168" y="102" font-family="monospace" font-size="13" fill="#0055FF">
-      _
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1s" repeatCount="indefinite"/>
-    </text>
+          stroke="#0055FF" stroke-width="2" class="pulse"/>
+    <text x="20" y="34"  font-family="monospace" font-size="14" fill="#0055FF" class="fade1">&gt; whoami</text>
+    <text x="20" y="58"  font-family="monospace" font-size="13" fill="#00122E" class="fade2">Python &#183; Automation</text>
+    <text x="20" y="80"  font-family="monospace" font-size="13" fill="#00122E" class="fade3">Web &#183; Data &#183; Veille</text>
+    <text x="20" y="102" font-family="monospace" font-size="13" fill="#E30613" class="fade4">&#9656; status: ONLINE</text>
+    <text x="168" y="102" font-family="monospace" font-size="13" fill="#0055FF" class="blink">_</text>
   </g>
 
-  <!-- ============================================================ -->
-  <!-- PANNEAU DROIT : stats — boucle décalée 10s                    -->
-  <!-- ============================================================ -->
+  <!-- Panneau droit -->
   <g transform="translate(520,190)">
     <rect x="0" y="0" width="360" height="120" rx="12" fill="#FFFFFF"
-          stroke="#E30613" stroke-width="2" filter="url(#glow)">
-      <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2s"
-               begin="0.5s" repeatCount="indefinite"/>
-    </rect>
-
-    <!-- Ligne 1 : prompt stats -->
-    <text x="20" y="34" font-family="monospace" font-size="14" fill="#E30613">
-      &gt; stats
-      <animate attributeName="opacity"
-               values="1;1;1;0"
-               keyTimes="0;0.10;0.85;0.95"
-               dur="10s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- Ligne 2 : 47 repos -->
-    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">
-      47 repos / October 2026
-      <animate attributeName="opacity"
-               values="0;0;1;1;0"
-               keyTimes="0;0.20;0.28;0.85;0.95"
-               dur="10s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- Ligne 3 : rapid shipping -->
-    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">
-      Rapid shipping mode
-      <animate attributeName="opacity"
-               values="0;0;1;1;0"
-               keyTimes="0;0.28;0.36;0.85;0.95"
-               dur="10s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- Ligne 4 : light speed -->
-    <text x="20" y="102" font-family="monospace" font-size="13" fill="#0055FF">
-      &#9656; light speed
-      <animate attributeName="opacity"
-               values="0;0;1;1;0"
-               keyTimes="0;0.36;0.44;0.85;0.95"
-               dur="10s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- Curseur clignotant -->
-    <text x="150" y="102" font-family="monospace" font-size="13" fill="#E30613">
-      _
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1s" repeatCount="indefinite"/>
-    </text>
+          stroke="#E30613" stroke-width="2" class="pulse"/>
+    <text x="20" y="34"  font-family="monospace" font-size="14" fill="#E30613" class="fade5">&gt; stats</text>
+    <text x="20" y="58"  font-family="monospace" font-size="13" fill="#00122E" class="fade6">47 repos / October 2026</text>
+    <text x="20" y="80"  font-family="monospace" font-size="13" fill="#00122E" class="fade7">Rapid shipping mode</text>
+    <text x="20" y="102" font-family="monospace" font-size="13" fill="#0055FF" class="fade8">&#9656; light speed</text>
+    <text x="150" y="102" font-family="monospace" font-size="13" fill="#E30613" class="blink">_</text>
   </g>
 
-  <!-- ============================================================ -->
-  <!-- BARRE DE PROGRESSION — synchronisée avec les panneaux         -->
-  <!-- ============================================================ -->
+  <!-- Barre -->
   <g transform="translate(120,330)">
     <rect x="0" y="0" width="760" height="8" rx="4" fill="#DCE6F5"/>
-    <rect x="0" y="0" width="560" height="8" rx="4" fill="#0055FF" filter="url(#glow)">
-      <animate attributeName="width"
-               values="0;0;560;560;0"
-               keyTimes="0;0.05;0.44;0.85;0.95"
-               dur="10s" repeatCount="indefinite"/>
-    </rect>
+    <rect x="0" y="0" width="560" height="8" rx="4" fill="#0055FF" class="bar"/>
     <rect x="560" y="0" width="100" height="8" rx="4" fill="#00122E" opacity="0.9"/>
-    <rect x="660" y="0" width="100" height="8" rx="4" fill="#E30613" filter="url(#glow)"/>
+    <rect x="660" y="0" width="100" height="8" rx="4" fill="#E30613"/>
   </g>
 
-  <!-- Indicateurs bleu/blanc/rouge pulsants -->
+  <!-- Indicateurs -->
   <g transform="translate(900,340)">
-    <circle cx="0" cy="0" r="3" fill="#0055FF">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="14" cy="0" r="3" fill="#00122E">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="28" cy="0" r="3" fill="#E30613">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.6s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="0"  cy="0" r="3" fill="#0055FF" class="corner"/>
+    <circle cx="14" cy="0" r="3" fill="#00122E" class="corner2"/>
+    <circle cx="28" cy="0" r="3" fill="#E30613" class="corner3"/>
   </g>
 </svg>
