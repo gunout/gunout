@@ -19,7 +19,10 @@
   <img src="./assets/images/profile_matrix.svg" alt="GUNOUT — Matrix Profile" width="100%" />
 </div>
 
----
+<!-- DIVIDER -->
+<div align="center">
+  <img src="./assets/images/divider_neon.svg" alt="" width="100%" />
+</div>
 
 ## À propos
 
@@ -30,7 +33,10 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
 - ⚡ Philosophie : *build small, ship fast, automate the rest*
 - 📍 Basé à La Réunion · 🌐 Disponible en remote
 
----
+<!-- DIVIDER -->
+<div align="center">
+  <img src="./assets/images/divider_neon.svg" alt="" width="100%" />
+</div>
 
 ## Stack
 
@@ -69,7 +75,10 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
 **Infra** · Docker, Linux, CI/CD, automatisation système
 **Sécurité** · BackBox, audit, scripting défensif
 
----
+<!-- DIVIDER -->
+<div align="center">
+  <img src="./assets/images/divider_neon.svg" alt="" width="100%" />
+</div>
 
 ## Projets sélectionnés
 
@@ -113,7 +122,10 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
   </tr>
 </table>
 
----
+<!-- DIVIDER -->
+<div align="center">
+  <img src="./assets/images/divider_neon.svg" alt="" width="100%" />
+</div>
 
 ## Statistiques
 
@@ -128,7 +140,10 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=GUNOUT&hide_border=true&background=FFFFFF&stroke=0055FF&ring=E30613&fire=E30613&currStreakLabel=00122E&sideLabels=00122E&dates=00122E" alt="Streak" width="60%" />
 </div>
 
----
+<!-- DIVIDER -->
+<div align="center">
+  <img src="./assets/images/divider_neon.svg" alt="" width="100%" />
+</div>
 
 ## Contact
 
