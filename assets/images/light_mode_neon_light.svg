@@ -209,7 +209,7 @@
     </text>
   </g>
 
-  <text x="500" y="335" text-anchor="middle" font-family="Orbitron, monospace font-size="11" letter-spacing="4" fill="#00122E" opacity="0.6">
+  <text x="500" y="335" text-anchor="middle" font-family="Orbitron, monospace" font-size="11" letter-spacing="4" fill="#00122E" opacity="0.6">
     ◆ PYTHON · AUTOMATION · WEB · DATA ◆
   </text>
 </svg>
