@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-0055FF?style=flat-square&labelColor=00122E" alt="Status" />
-  <img src="https://img.shields.io/badge/LOCATION-REUNION_ISLAND-E30613?style=flat-square&labelColor=00122E" alt="Location" />
-  <img src="https://img.shields.io/badge/AVAILABILITY-HOMEWORK-00122E?style=flat-square&labelColor=0055FF" alt="Availability" />
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-FF2D95?style=flat-square&labelColor=0D001A" alt="Status" />
+  <img src="https://img.shields.io/badge/LOCATION-REUNION_ISLAND-FF69B4?style=flat-square&labelColor=0D001A" alt="Location" />
+  <img src="https://img.shields.io/badge/AVAILABILITY-HOMEWORK-FFB6D9?style=flat-square&labelColor=0D001A" alt="Availability" />
 </p>
 
 <div align="center">
@@ -85,38 +85,37 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/GUNOUT/REPO_1">REPO_1</a></h3>
-      <p>Outil d'automatisation Python pour <em>[cas d'usage concret]</em>.</p>
+      <h3>🤖 <a href="https://github.com/gunout/meteo-spatiale">meteo-spatiale</a></h3>
+      <p>Outil d'automatisation Python pour la météo spatiale. <em>Shell · Python</em></p>
       <p>
-        <img src="https://img.shields.io/badge/-Python-0055FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/-FastAPI-00122E?style=flat-square" />
-        <img src="https://img.shields.io/badge/-Docker-E30613?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Python-FF2D95?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Shell-FF69B4?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>📡 <a href="https://github.com/GUNOUT/REPO_2">REPO_2</a></h3>
-      <p>Service web / API pour <em>[problème résolu]</em>.</p>
+      <h3>📡 <a href="https://github.com/gunout/radar-terminal-sat">radar-terminal-sat</a></h3>
+      <p>Radar satellite en terminal. <em>Python</em></p>
       <p>
-        <img src="https://img.shields.io/badge/-Node.js-0055FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/-Redis-00122E?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Python-FF2D95?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Data-FFB6D9?style=flat-square" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/GUNOUT/REPO_3">REPO_3</a></h3>
-      <p>Pipeline data / visualisation pour <em>[type de données]</em>.</p>
+      <h3>🧠 <a href="https://github.com/gunout/monitor-gunout">monitor-gunout</a></h3>
+      <p>Monitor de veille et d'actualités. <em>HTML · JS</em></p>
       <p>
-        <img src="https://img.shields.io/badge/-Pandas-0055FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/-Plotly-E30613?style=flat-square" />
+        <img src="https://img.shields.io/badge/-HTML-FF2D95?style=flat-square" />
+        <img src="https://img.shields.io/badge/-JavaScript-FF69B4?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/GUNOUT/REPO_4">REPO_4</a></h3>
-      <p>Scripts d'audit et d'automatisation sécurité.</p>
+      <h3>🛡️ <a href="https://github.com/gunout/recognition-faciale">recognition-faciale</a></h3>
+      <p>Scripts d'audit et de reconnaissance faciale. <em>Python</em></p>
       <p>
-        <img src="https://img.shields.io/badge/-Bash-0055FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/-BackBox-E30613?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Python-FF2D95?style=flat-square" />
+        <img src="https://img.shields.io/badge/-AI-FFB6D9?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -131,13 +130,13 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=GUNOUT&show_icons=true&hide_border=true&title_color=0055FF&icon_color=E30613&text_color=00122E&bg_color=FFFFFF&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GUNOUT&layout=compact&hide_border=true&title_color=0055FF&text_color=00122E&bg_color=FFFFFF&langs_count=8" alt="Top Languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=gunout&show_icons=true&hide_border=true&title_color=FF2D95&icon_color=FF69B4&text_color=FFB6D9&bg_color=0D001A&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gunout&layout=compact&hide_border=true&title_color=FF2D95&text_color=FFB6D9&bg_color=0D001A&langs_count=8" alt="Top Languages" />
 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GUNOUT&hide_border=true&background=FFFFFF&stroke=0055FF&ring=E30613&fire=E30613&currStreakLabel=00122E&sideLabels=00122E&dates=00122E" alt="Streak" width="60%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gunout&hide_border=true&background=0D001A&stroke=FF2D95&ring=FF69B4&fire=FF2D95&currStreakLabel=FFB6D9&sideLabels=FFB6D9&dates=FFB6D9" alt="Streak" width="60%" />
 </div>
 
 <!-- DIVIDER -->
@@ -148,8 +147,8 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
 ## Contact
 
 <p align="center">
-  <a href="https://github.com/GUNOUT">
-    <img src="https://img.shields.io/badge/GITHUB-GUNOUT-00122E?style=for-the-badge&logo=github&logoColor=white&labelColor=0055FF" alt="GitHub" />
+  <a href="https://github.com/gunout">
+    <img src="https://img.shields.io/badge/GITHUB-gunout-0D001A?style=for-the-badge&logo=github&logoColor=white&labelColor=FF2D95" alt="GitHub" />
   </a>
 </p>
 
