@@ -1,69 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#0D001A"/>
-      <stop offset="50%"  stop-color="#1A0026"/>
-      <stop offset="100%" stop-color="#0D001A"/>
+      <stop offset="0%"   stop-color="#F4F8FF"/>
+      <stop offset="50%"  stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFF3F3"/>
     </linearGradient>
     <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#FF2D95"/>
-      <stop offset="50%"  stop-color="#FFB6D9"/>
-      <stop offset="100%" stop-color="#FF2D95"/>
+      <stop offset="0%"   stop-color="#0055FF"/>
+      <stop offset="50%"  stop-color="#00122E"/>
+      <stop offset="100%" stop-color="#E30613"/>
     </linearGradient>
     <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
-      <path d="M22 0H0V22" fill="none" stroke="#FF2D95" stroke-opacity="0.10" stroke-width="1"/>
+      <path d="M22 0H0V22" fill="none" stroke="#0055FF" stroke-opacity="0.08" stroke-width="1"/>
     </pattern>
     <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="glow-strong" x="-30%" y="-60%" width="160%" height="220%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+
+    <!-- Clip-path animé : révèle de gauche à droite, puis reste plein -->
+    <clipPath id="reveal1">
+      <rect x="0" y="0" width="0" height="120">
+        <animate attributeName="width" values="0;360;360" keyTimes="0;0.55;1" dur="6s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="reveal2">
+      <rect x="0" y="0" width="0" height="120">
+        <animate attributeName="width" values="0;360;360" keyTimes="0;0.60;1" dur="6s" repeatCount="indefinite" begin="0.5s" />
+      </rect>
+    </clipPath>
   </defs>
 
-  <!-- Fond sombre -->
   <rect width="1000" height="360" rx="18" fill="url(#bg)"/>
   <rect width="1000" height="360" rx="18" fill="url(#grid)"/>
+  <rect x="2" y="2" width="996" height="356" rx="16" fill="none" stroke="url(#txt)" stroke-width="2" filter="url(#glow)"/>
 
-  <!-- Bordure extérieure néon -->
-  <rect x="2" y="2" width="996" height="356" rx="16" fill="none" stroke="#FF2D95" stroke-width="2" filter="url(#glow-strong)"/>
-
-  <!-- Coins néon -->
-  <g stroke="#FF2D95" stroke-width="3" fill="none" filter="url(#glow)">
+  <g stroke="#E30613" stroke-width="3" fill="none" filter="url(#glow)">
     <path d="M28 50 h30 M28 50 v30"/>
     <path d="M972 50 h-30 M972 50 v30"/>
     <path d="M28 310 h30 M28 310 v-30"/>
     <path d="M972 310 h-30 M972 310 v-30"/>
   </g>
 
-  <!-- Titre GUNOUT avec glow -->
-  <text x="500" y="110" text-anchor="middle" font-family="Orbitron, monospace" font-size="44" font-weight="700" fill="url(#txt)" filter="url(#glow-strong)">GUNOUT</text>
-  <text x="500" y="145" text-anchor="middle" font-family="Orbitron, monospace" font-size="14" letter-spacing="6" fill="#FFB6D9" opacity="0.85">◆ NEON ROSE MODE ◆</text>
+  <text x="500" y="110" text-anchor="middle" font-family="Orbitron, monospace" font-size="44" font-weight="700" fill="url(#txt)" filter="url(#glow)">GUNOUT</text>
+  <text x="500" y="145" text-anchor="middle" font-family="Orbitron, monospace" font-size="14" letter-spacing="6" fill="#00122E" opacity="0.85">◆ LIGHT MODE ◆</text>
 
-  <!-- ================= PANNEAU 1 : WHOAMI ================= -->
+  <!-- PANNEAU 1 : WHOAMI (révélation clip-path) -->
   <g transform="translate(120,190)">
-    <rect x="0" y="0" width="360" height="120" rx="12" fill="#0D001A" stroke="#FF2D95" stroke-width="2" filter="url(#glow)"/>
-
-    <text x="20" y="34" font-family="monospace" font-size="14" fill="#FF2D95" filter="url(#glow)">&gt; whoami</text>
-    <text x="20" y="58" font-family="monospace" font-size="13" fill="#FFB6D9">Python · Automation</text>
-    <text x="20" y="80" font-family="monospace" font-size="13" fill="#FFB6D9">Web · Data · Veille</text>
-    <text x="20" y="102" font-family="monospace" font-size="13" fill="#FF2D95">▸ status: ONLINE<tspan fill="#FF69B4">_<animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite" /></tspan></text>
+    <rect x="0" y="0" width="360" height="120" rx="12" fill="#FFFFFF" stroke="#0055FF" stroke-width="2" filter="url(#glow)"/>
+    <g clip-path="url(#reveal1)">
+      <text x="20" y="34" font-family="monospace" font-size="14" fill="#0055FF" filter="url(#glow)">&gt; whoami</text>
+      <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">Python · Automation</text>
+      <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">Web · Data · Veille</text>
+      <text x="20" y="102" font-family="monospace" font-size="13" fill="#E30613">▸ status: ONLINE<tspan fill="#0055FF">_<animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite" /></tspan></text>
+    </g>
   </g>
 
-  <!-- ================= PANNEAU 2 : STATS ================= -->
+  <!-- PANNEAU 2 : STATS (révélation décalée) -->
   <g transform="translate(520,190)">
-    <rect x="0" y="0" width="360" height="120" rx="12" fill="#0D001A" stroke="#FF2D95" stroke-width="2" filter="url(#glow)"/>
-
-    <text x="20" y="34" font-family="monospace" font-size="14" fill="#FF2D95" filter="url(#glow)">&gt; stats</text>
-    <text x="20" y="58" font-family="monospace" font-size="13" fill="#FFB6D9">47 repos / October 2026</text>
-    <text x="20" y="80" font-family="monospace" font-size="13" fill="#FFB6D9">Rapid shipping mode</text>
-    <text x="20" y="102" font-family="monospace" font-size="13" fill="#FF69B4">▸ status: ONLINE<tspan fill="#FF2D95">_<animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite" /></tspan></text>
+    <rect x="0" y="0" width="360" height="120" rx="12" fill="#FFFFFF" stroke="#E30613" stroke-width="2" filter="url(#glow)"/>
+    <g clip-path="url(#reveal2)">
+      <text x="20" y="34" font-family="monospace" font-size="14" fill="#E30613" filter="url(#glow)">&gt; stats</text>
+      <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">47 repos / October 2026</text>
+      <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">Rapid shipping mode</text>
+      <text x="20" y="102" font-family="monospace" font-size="13" fill="#0055FF">▸ status: ONLINE<tspan fill="#E30613">_<animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite" /></tspan></text>
+    </g>
   </g>
 
-  <!-- PIED DE PAGE -->
-  <text x="500" y="335" text-anchor="middle" font-family="Orbitron, monospace" font-size="11" letter-spacing="4" fill="#FFB6D9" opacity="0.7">
+  <text x="500" y="335" text-anchor="middle" font-family="Orbitron, monospace" font-size="11" letter-spacing="4" fill="#00122E" opacity="0.6">
     ◆ PYTHON · AUTOMATION · WEB · DATA ◆
   </text>
 </svg>
