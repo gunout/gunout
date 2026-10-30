@@ -18,31 +18,59 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
+
   <rect width="1000" height="360" rx="18" fill="url(#bg)"/>
   <rect width="1000" height="360" rx="18" fill="url(#grid)"/>
   <rect x="2" y="2" width="996" height="356" rx="16" fill="none" stroke="url(#txt)" stroke-width="2" filter="url(#glow)"/>
+  
   <g stroke="#E30613" stroke-width="3" fill="none" filter="url(#glow)">
     <path d="M28 50 h30 M28 50 v30"/>
     <path d="M972 50 h-30 M972 50 v30"/>
     <path d="M28 310 h30 M28 310 v-30"/>
     <path d="M972 310 h-30 M972 310 v-30"/>
   </g>
+
   <text x="500" y="110" text-anchor="middle" font-family="Orbitron, monospace" font-size="44" font-weight="700" fill="url(#txt)" filter="url(#glow)">GUNOUT</text>
   <text x="500" y="145" text-anchor="middle" font-family="Orbitron, monospace" font-size="14" letter-spacing="6" fill="#00122E" opacity="0.85">◆ LIGHT MODE ◆</text>
+
+  <!-- PANNEAU 1 : WHOAMI (lettre par lettre) -->
   <g transform="translate(120,190)">
     <rect x="0" y="0" width="360" height="120" rx="12" fill="#FFFFFF" stroke="#0055FF" stroke-width="2" filter="url(#glow)"/>
-    <text x="20" y="34" font-family="monospace" font-size="14" fill="#0055FF">&gt; whoami</text>
-    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">Python · Automation</text>
-    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">Web · Data · Veille</text>
-    <text x="20" y="102" font-family="monospace" font-size="13" fill="#E30613">▸ status: ONLINE</text>
+    
+    <text x="20" y="34" font-family="monospace" font-size="14" fill="#0055FF">
+      <tspan opacity="0">&gt; whoami<animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.5s" fill="freeze" /></tspan>
+    </text>
+    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">
+      <tspan opacity="0">Python · Automation<animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.2s" fill="freeze" /></tspan>
+    </text>
+    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">
+      <tspan opacity="0">Web · Data · Veille<animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.9s" fill="freeze" /></tspan>
+    </text>
+    <text x="20" y="102" font-family="monospace" font-size="13" fill="#E30613">
+      <tspan opacity="0">▸ status: ONLINE<animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.6s" fill="freeze" /></tspan>
+      <tspan opacity="0" fill="#0055FF">_<animate attributeName="opacity" values="0;1;0;1;0;1" dur="1s" begin="3.2s" repeatCount="indefinite" /></tspan>
+    </text>
   </g>
+
+  <!-- PANNEAU 2 : STATS (lettre par lettre) -->
   <g transform="translate(520,190)">
     <rect x="0" y="0" width="360" height="120" rx="12" fill="#FFFFFF" stroke="#E30613" stroke-width="2" filter="url(#glow)"/>
-    <text x="20" y="34" font-family="monospace" font-size="14" fill="#E30613">&gt; stats</text>
-    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">47 repos / October 2026</text>
-    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">Rapid shipping mode</text>
-    <text x="20" y="102" font-family="monospace" font-size="13" fill="#0055FF">▸ light speed</text>
+    
+    <text x="20" y="34" font-family="monospace" font-size="14" fill="#E30613">
+      <tspan opacity="0">&gt; stats<animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.5s" fill="freeze" /></tspan>
+    </text>
+    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">
+      <tspan opacity="0">47 repos / October 2026<animate attributeName="opacity" values="0;1" dur="0.1s" begin="4.2s" fill="freeze" /></tspan>
+    </text>
+    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">
+      <tspan opacity="0">Rapid shipping mode<animate attributeName="opacity" values="0;1" dur="0.1s" begin="4.9s" fill="freeze" /></tspan>
+    </text>
+    <text x="20" y="102" font-family="monospace" font-size="13" fill="#0055FF">
+      <tspan opacity="0">▸ light speed<animate attributeName="opacity" values="0;1" dur="0.1s" begin="5.6s" fill="freeze" /></tspan>
+    </text>
   </g>
+
+  <!-- BARRE DE PROGRESSION -->
   <g transform="translate(120,330)">
     <rect x="0" y="0" width="760" height="8" rx="4" fill="#DCE6F5"/>
     <rect x="0" y="0" width="560" height="8" rx="4" fill="#0055FF" filter="url(#glow)"/>
