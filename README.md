@@ -12,8 +12,15 @@
   </a>
 </p>
 
+<!-- CARTE MATRIX UNIQUEMENT -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=800&color=0055FF&background=00122E00&center=true&vCenter=true&random=true&width=800&lines=%E2%96%B6+Initializing+neon+protocol...;%E2%96%B6+Building+monitors+and+scrapers...;%E2%96%B6+Automating+veille+and+reporting...;%E2%96%B6+Shipping+projects+at+light+speed...;%E2%96%B6+System+online.+Welcome." alt="Typing SVG" />
+  <a href="https://github.com/gunout">
+    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/profile_matrix.svg" alt="Matrix Profile Card" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=800&color=0055FF&background=FFFFFF00&center=true&vCenter=true&random=true&width=800&lines=%E2%96%B6+Initializing+neon+protocol...;%E2%96%B6+Building+monitors+and+scrapers...;%E2%96%B6+Automating+veille+and+reporting...;%E2%96%B6+Shipping+projects+at+light+speed...;%E2%96%B6+System+online.+Welcome." alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -28,9 +35,6 @@
     </picture>
   </a>
   <br/><br/>
-  <a href="https://u8views.com/github/gunout">
-    <img src="https://u8views.com/api/v1/github/profiles/88831335/views/day-week-month-total-count.svg" alt="Views" />
-  </a>
 </p>
 
 <p align="center">
@@ -119,16 +123,6 @@
 </p>
 
 <div align="center">
-  <h3>💖 Support my work</h3>
-
-  <a href="https://ko-fi.com/gunout">
-    <img height='50' src='https://storage.ko-fi.com/cdn/kofi5.png?v=3' alt='Support me on Ko-fi' />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.buymeacoffee.com/gunout">
-    <img height='50' src='https://cdn.buymeacoffee.com/buttons/v2/default-blue.png' alt='Buy Me A Coffee' />
-  </a>
-
   <br/><br/>
 
   <picture>
