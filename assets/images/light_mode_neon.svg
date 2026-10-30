@@ -1,30 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
   <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;display=swap');
-      .title { font-family: 'Orbitron', monospace; font-weight: 700; }
-    </style>
-    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#FFF0F7"/>
-      <stop offset="100%" stop-color="#FFE0EF"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#F4F8FF"/>
+      <stop offset="50%"  stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFF3F3"/>
     </linearGradient>
-    <linearGradient id="la" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#FF2D95" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#FF2D95" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#FF2D95" stop-opacity="0"/>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0055FF"/>
+      <stop offset="50%"  stop-color="#00122E"/>
+      <stop offset="100%" stop-color="#E30613"/>
     </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#0055FF" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="800" height="200" fill="url(#lg)" rx="16"/>
-  
-  <g stroke="url(#la)" stroke-width="1.5" fill="none" filter="url(#glow)">
-    <path d="M0 50 H800"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></path>
-    <path d="M0 100 H800"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></path>
-    <path d="M0 150 H800"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="1.5s" repeatCount="indefinite"/></path>
+  <rect width="1000" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="360" rx="18" fill="url(#grid)"/>
+  <rect x="2" y="2" width="996" height="356" rx="16" fill="none" stroke="url(#txt)" stroke-width="2" filter="url(#glow)"/>
+  <g stroke="#E30613" stroke-width="3" fill="none" filter="url(#glow)">
+    <path d="M28 50 h30 M28 50 v30"/>
+    <path d="M972 50 h-30 M972 50 v30"/>
+    <path d="M28 310 h30 M28 310 v-30"/>
+    <path d="M972 310 h-30 M972 310 v-30"/>
   </g>
-  
-  <text x="400" y="115" text-anchor="middle" class="title" font-size="36" fill="#FF2D95" letter-spacing="8" filter="url(#glow)">
-    gunout
-    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-  </text>
+  <text x="500" y="110" text-anchor="middle" font-family="Orbitron, monospace" font-size="44" font-weight="700" fill="url(#txt)" filter="url(#glow)">GUNOUT</text>
+  <text x="500" y="145" text-anchor="middle" font-family="Orbitron, monospace" font-size="14" letter-spacing="6" fill="#00122E" opacity="0.85">◆ LIGHT MODE ◆</text>
+  <g transform="translate(120,190)">
+    <rect x="0" y="0" width="360" height="120" rx="12" fill="#FFFFFF" stroke="#0055FF" stroke-width="2" filter="url(#glow)"/>
+    <text x="20" y="34" font-family="monospace" font-size="14" fill="#0055FF">&gt; whoami</text>
+    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">Python · Automation</text>
+    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">Web · Data · Veille</text>
+    <text x="20" y="102" font-family="monospace" font-size="13" fill="#E30613">▸ status: ONLINE</text>
+  </g>
+  <g transform="translate(520,190)">
+    <rect x="0" y="0" width="360" height="120" rx="12" fill="#FFFFFF" stroke="#E30613" stroke-width="2" filter="url(#glow)"/>
+    <text x="20" y="34" font-family="monospace" font-size="14" fill="#E30613">&gt; stats</text>
+    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">47 repos / October 2026</text>
+    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">Rapid shipping mode</text>
+    <text x="20" y="102" font-family="monospace" font-size="13" fill="#0055FF">▸ light speed</text>
+  </g>
+  <g transform="translate(120,330)">
+    <rect x="0" y="0" width="760" height="8" rx="4" fill="#DCE6F5"/>
+    <rect x="0" y="0" width="560" height="8" rx="4" fill="#0055FF" filter="url(#glow)"/>
+    <rect x="560" y="0" width="100" height="8" rx="4" fill="#00122E" opacity="0.9"/>
+    <rect x="660" y="0" width="100" height="8" rx="4" fill="#E30613" filter="url(#glow)"/>
+  </g>
 </svg>

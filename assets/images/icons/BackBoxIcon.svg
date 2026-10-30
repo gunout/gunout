@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#0D001A"/>
-  <polygon points="16,24 24,12 32,24" fill="#FF2D95"/>
-  <polygon points="48,24 40,12 32,24" fill="#FF2D95"/>
-  <path d="M16 24 L32 52 L48 24 Z" fill="#FF69B4"/>
-  <rect x="22" y="28" width="8" height="4" fill="#0D001A"/>
-  <rect x="34" y="28" width="8" height="4" fill="#0D001A"/>
-  <line x1="22" y1="30" x2="30" y2="30" stroke="#FFB6D9" stroke-width="1.5">
-    <animate attributeName="x1" values="22;26;22" dur="1.5s" repeatCount="indefinite"/>
-  </line>
-  <line x1="34" y1="30" x2="42" y2="30" stroke="#FFB6D9" stroke-width="1.5">
-    <animate attributeName="x2" values="42;38;42" dur="1.5s" repeatCount="indefinite"/>
-  </line>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="60" height="60">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0055FF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="6" y="10" width="52" height="40" rx="6" fill="#00122E" stroke="url(#g)" stroke-width="2.5" filter="url(#glow)"/>
+  <rect x="12" y="18" width="40" height="24" rx="3" fill="#0055FF" opacity="0.25"/>
+  <path d="M20 26l8 6-8 6" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <rect x="32" y="34" width="12" height="3" rx="1.5" fill="#E30613" filter="url(#glow)"/>
+  <rect x="22" y="54" width="20" height="4" rx="2" fill="#0055FF"/>
 </svg>

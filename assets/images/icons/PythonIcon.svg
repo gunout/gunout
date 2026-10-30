@@ -1,7 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#0D001A"/>
-  <path d="M31 10 H23 A9 9 0 0 0 14 19 V25 A3 3 0 0 0 17 28 H31 A5 5 0 0 1 36 33 V42 A5 5 0 0 1 31 47 H18 A9 9 0 0 1 9 38 V50 A9 9 0 0 0 18 59 H38 A9 9 0 0 0 47 50 V31 A9 9 0 0 0 38 22 H25 A3 3 0 0 1 22 19 V17 A3 3 0 0 1 25 14 H31 A2 2 0 0 0 33 12 V10 Z" fill="#FF2D95"/>
-  <path d="M33 54 H41 A9 9 0 0 0 50 45 V39 A3 3 0 0 0 47 36 H33 A5 5 0 0 1 28 31 V22 A5 5 0 0 1 33 17 H46 A9 9 0 0 1 55 26 V14 A9 9 0 0 0 46 5 H26 A9 9 0 0 0 17 14 V33 A9 9 0 0 0 26 42 H39 A3 3 0 0 1 42 45 V47 A3 3 0 0 1 39 50 H33 A2 2 0 0 0 31 52 V54 Z" fill="#FFB6D9"/>
-  <circle cx="23" cy="18" r="2" fill="#0D001A"/>
-  <circle cx="41" cy="46" r="2" fill="#0D001A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="60" height="60">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0055FF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <path d="M31 4c-7 0-12 3-12 8v6h13v2H14c-5 0-9 4-9 10s3 10 8 10h5v-6c0-5 4-9 9-9h13c5 0 8-3 8-8V12c0-5-5-8-12-8zm-6 4a2 2 0 110 4 2 2 0 010-4z" fill="url(#g)" filter="url(#glow)"/>
+  <path d="M33 60c7 0 12-3 12-8v-6H32v-2h18c5 0 9-4 9-10s-3-10-8-10h-5v6c0 5-4 9-9 9H24c-5 0-8 3-8 8v8c0 5 5 8 12 8zm6-4a2 2 0 110-4 2 2 0 010 4z" fill="#E30613" filter="url(#glow)"/>
 </svg>
