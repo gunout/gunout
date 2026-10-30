@@ -1,157 +1,143 @@
-<div align="center">
-  <img src="./assets/images/banner_neon.svg" alt="GUNOUT — Neon Protocol Online" width="100%" />
-</div>
-
-<h1 align="center">GUNOUT</h1>
+<!-- ============================================================ -->
+<!--  GUNOUT — FUTURISTIC NEON BLUE WHITE RED PROFILE             -->
+<!-- ============================================================ -->
 
 <p align="center">
-  <strong>Développeur & Automatisation</strong><br/>
-  Python · Web · Data · Veille
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-0055FF?style=flat-square&labelColor=00122E" alt="Status" />
-  <img src="https://img.shields.io/badge/LOCATION-REUNION_ISLAND-E30613?style=flat-square&labelColor=00122E" alt="Location" />
-  <img src="https://img.shields.io/badge/AVAILABILITY-HOMEWORK-FFFFFF?style=flat-square&labelColor=00122E" alt="Availability" />
-</p>
-
-<div align="center">
-  <img src="./assets/images/profile_matrix.svg" alt="GUNOUT — Matrix Profile" width="100%" />
-</div>
-
-<!-- DIVIDER -->
-<div align="center">
-  <img src="./assets/images/divider_neon.svg" alt="" width="100%" />
-</div>
-
-## À propos
-
-Développeur orienté **automatisation et livraison rapide**. Je conçois des outils qui suppriment les tâches répétitives, connectent des services entre eux et rendent les données exploitables.
-
-- 🔭 Actuellement : systèmes d'automatisation Python & intégrations web
-- 🧠 Centres d'intérêt : data pipelines, veille technologique, scripting système
-- ⚡ Philosophie : *build small, ship fast, automate the rest*
-- 📍 Basé à La Réunion · 🌐 Disponible en remote
-
-<!-- DIVIDER -->
-<div align="center">
-  <img src="./assets/images/divider_neon.svg" alt="" width="100%" />
-</div>
-
-## Stack
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="./assets/images/icons/PythonIcon.svg" width="40" height="40" alt="Python" /><br/>
-      <sub><b>Python</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="./assets/images/icons/JSIcon.svg" width="40" height="40" alt="JavaScript" /><br/>
-      <sub><b>JavaScript</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="./assets/images/icons/HTMLIcon.svg" width="40" height="40" alt="HTML5" /><br/>
-      <sub><b>HTML5</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="./assets/images/icons/CSSIcon.svg" width="40" height="40" alt="CSS3" /><br/>
-      <sub><b>CSS3</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="./assets/images/icons/DockerIcon.svg" width="40" height="40" alt="Docker" /><br/>
-      <sub><b>Docker</b></sub>
-    </td>
-    <td align="center" width="96">
-      <img src="./assets/images/icons/BackBoxIcon.svg" width="40" height="40" alt="BackBox" /><br/>
-      <sub><b>BackBox</b></sub>
-    </td>
-  </tr>
-</table>
-
-**Langages** · Python, JavaScript, Bash, SQL
-**Web** · FastAPI, Node.js, HTML/CSS
-**Data** · Pandas, Plotly, scraping & parsing
-**Infra** · Docker, Linux, CI/CD, automatisation système
-**Sécurité** · BackBox, audit, scripting défensif
-
-<!-- DIVIDER -->
-<div align="center">
-  <img src="./assets/images/divider_neon.svg" alt="" width="100%" />
-</div>
-
-## Projets sélectionnés
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛰️ <a href="https://github.com/gunout/meteo-spatiale">meteo-spatiale</a></h3>
-      <p>Outil d'automatisation Python pour la météo spatiale.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-Python-0055FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/-Shell-E30613?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📡 <a href="https://github.com/gunout/radar-terminal-sat">radar-terminal-sat</a></h3>
-      <p>Radar satellite et suivi orbital en terminal.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-Python-0055FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/-Data-00122E?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📊 <a href="https://github.com/gunout/monitor-gunout">monitor-gunout</a></h3>
-      <p>Dashboard de veille et d'actualités en temps réel.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-HTML-E30613?style=flat-square" />
-        <img src="https://img.shields.io/badge/-JavaScript-0055FF?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💻 <a href="https://github.com/gunout/recognition-faciale">recognition-faciale</a></h3>
-      <p>Outil de détection et de reconnaissance faciale.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-Python-0055FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/-OpenCV-E30613?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-<!-- DIVIDER -->
-<div align="center">
-  <img src="./assets/images/divider_neon.svg" alt="" width="100%" />
-</div>
-
-## Statistiques
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=gunout&show_icons=true&hide_border=true&title_color=0055FF&icon_color=E30613&text_color=00122E&bg_color=FFFFFF&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gunout&layout=compact&hide_border=true&title_color=0055FF&text_color=00122E&bg_color=FFFFFF&langs_count=8" alt="Top Languages" />
-
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gunout&hide_border=true&background=FFFFFF&stroke=0055FF&ring=E30613&fire=E30613&currStreakLabel=00122E&sideLabels=00122E&dates=00122E" alt="Streak" width="60%" />
-</div>
-
-<!-- DIVIDER -->
-<div align="center">
-  <img src="./assets/images/divider_neon.svg" alt="" width="100%" />
-</div>
-
-## Contact
-
-<p align="center">
-  <a href="https://github.com/gunout">
-    <img src="https://img.shields.io/badge/GITHUB-gunout-00122E?style=for-the-badge&logo=github&logoColor=white&labelColor=0055FF" alt="GitHub" />
+  <a href="https://gunout.github.io/?utm_source=github.com">
+    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/banner_neon.svg" alt="Banner" />
   </a>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=800&color=0055FF&background=00122E00&center=true&vCenter=true&random=true&width=800&lines=%E2%96%B6+Initializing+neon+protocol...;%E2%96%B6+Building+monitors+and+scrapers...;%E2%96%B6+Automating+veille+and+reporting...;%E2%96%B6+Shipping+projects+at+light+speed...;%E2%96%B6+System+online.+Welcome." alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/gunout/gunout">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/dark_mode_neon.svg">
+      <img alt="gunout's GitHub Profile README" src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/light_mode_neon.svg">
+    </picture>
+  </a>
+  <br/><br/>
+  <a href="https://u8views.com/github/gunout">
+    <img src="https://u8views.com/api/v1/github/profiles/88831335/views/day-week-month-total-count.svg" alt="Views" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
+<h2 align="center">⚡ <code>whoami</code></h2>
+
+<p align="center">
+  <samp>
+    <span style="color:#0055FF;">🐍 Python & Automation</span> — Scrapers, monitors, dashboards<br>
+    <span style="color:#E30613;">🌐 Web Development</span> — HTML, JavaScript, data visualization<br>
+    <span style="color:#00122E;">🐚 Shell & Scripting</span> — Task automation, processing pipelines<br>
+    <span style="color:#0055FF;">📊 Veille & Data</span> — News, markets, institutions, space<br>
+    <span style="color:#E30613;">🚀 Rapid Shipping</span> — 47 repos in October 2026<br>
+    <span style="color:#00122E;">🔭 Interests</span> — Aerospace, maritime, real estate, health, public policy
+  </samp>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
+<h2 align="center">🛠️ <code>tech_stack</code></h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/BackBoxIcon.svg" width="60" height="60" alt="BackBox" title="BackBox Linux"/>
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/DockerIcon.svg" width="60" height="60" alt="Docker" title="Docker"/>
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/PythonIcon.svg" width="60" height="60" alt="Python" title="Python"/>
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/HTMLIcon.svg" width="60" height="60" alt="HTML5" title="HTML5"/>
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/CSSIcon.svg" width="60" height="60" alt="CSS3" title="CSS3"/>
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/icons/JSIcon.svg" width="60" height="60" alt="JavaScript" title="JavaScript"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
+<h2 align="center">🚀 <code>recent_projects</code></h2>
+
+<p align="center">
+  <i>Une sélection de mes derniers dépôts, par domaine</i>
+</p>
+
+<h3 align="center">🛰️ Aerospace & Space</h3>
+<p align="center">
+  <a href="https://github.com/gunout/meteo-spatiale"><img src="https://img.shields.io/badge/meteo--spatiale-Shell-0055FF?style=for-the-badge&logo=gnubash&logoColor=white" /></a>
+  <a href="https://github.com/gunout/radar-terminal-sat"><img src="https://img.shields.io/badge/radar--terminal--sat-Python-E30613?style=for-the-badge&logo=python&logoColor=white" /></a>
+  <a href="https://github.com/gunout/carte-terminal-esa"><img src="https://img.shields.io/badge/carte--terminal--esa-HTML-00122E?style=for-the-badge&logo=html5&logoColor=white" /></a>
+  <a href="https://github.com/gunout/encyclopedie-arianne"><img src="https://img.shields.io/badge/encyclopedie--arianne-JS-0055FF?style=for-the-badge&logo=javascript&logoColor=white" /></a>
+</p>
+
+<h3 align="center">📊 Monitors & Veille</h3>
+<p align="center">
+  <a href="https://github.com/gunout/monitor-gunout"><img src="https://img.shields.io/badge/monitor--gunout-HTML-0055FF?style=for-the-badge&logo=html5&logoColor=white" /></a>
+  <a href="https://github.com/gunout/monitor-ue-reunion"><img src="https://img.shields.io/badge/monitor--ue--reunion-HTML-E30613?style=for-the-badge&logo=html5&logoColor=white" /></a>
+  <a href="https://github.com/gunout/meta-monitor-europe"><img src="https://img.shields.io/badge/meta--monitor--europe-HTML-00122E?style=for-the-badge&logo=html5&logoColor=white" /></a>
+  <a href="https://github.com/gunout/monitor-transparence-frais"><img src="https://img.shields.io/badge/monitor--transparence-HTML-0055FF?style=for-the-badge&logo=html5&logoColor=white" /></a>
+</p>
+
+<h3 align="center">💻 Tools & Automation</h3>
+<p align="center">
+  <a href="https://github.com/gunout/recognition-faciale"><img src="https://img.shields.io/badge/recognition--faciale-Python-0055FF?style=for-the-badge&logo=python&logoColor=white" /></a>
+  <a href="https://github.com/gunout/lexique-json"><img src="https://img.shields.io/badge/lexique--json-Python-E30613?style=for-the-badge&logo=python&logoColor=white" /></a>
+  <a href="https://github.com/gunout/scanner"><img src="https://img.shields.io/badge/scanner-JS-00122E?style=for-the-badge&logo=javascript&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
+<h2 align="center">📈 <code>github_stats</code></h2>
+
+<p align="center">
+  <img src="https://repobeats.axiom.co/api/embed/4e35902336cf1bfe2c35b94d061bba0e75d0e337.svg" alt="Repobeats analytics" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gunout&theme=radical&mode=daily&hide_border=true&stroke=0055FF&background=FFFFFF&ring=E30613&fire=E30613&currStreakLabel=00122E" alt="streak graph"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=gunout&langs_count=6&theme=radical&hide_border=true&bg_color=FFFFFF&title_color=0055FF&text_color=00122E" alt="top langs"/>
+  <img src="https://github-stats-extended.vercel.app/api/?username=gunout&show_icons=true&theme=radical&rank_icon=github&include_all_commits=true&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed&hide_border=true&bg_color=FFFFFF&title_color=0055FF&text_color=00122E&icon_color=E30613" alt="stats"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
 <div align="center">
-  <img src="./assets/images/footer_neon.svg" alt="End of Transmission" width="100%" />
+  <h3>💖 Support my work</h3>
+
+  <a href="https://ko-fi.com/gunout">
+    <img height='50' src='https://storage.ko-fi.com/cdn/kofi5.png?v=3' alt='Support me on Ko-fi' />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.buymeacoffee.com/gunout">
+    <img height='50' src='https://cdn.buymeacoffee.com/buttons/v2/default-blue.png' alt='Buy Me A Coffee' />
+  </a>
+
+  <br/><br/>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/footer_neon.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/footer_neon.svg">
+    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/footer_neon.svg" alt="Footer" width="100%" />
+  </picture>
 </div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
