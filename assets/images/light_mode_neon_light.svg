@@ -200,7 +200,7 @@
       <tspan opacity="0">I<animate attributeName="opacity" values="0;1" keyTimes="0;0.56" dur="10s" repeatCount="indefinite" fill="freeze" /></tspan>
       <tspan opacity="0">N<animate attributeName="opacity" values="0;1" keyTimes="0;0.58" dur="10s" repeatCount="indefinite" fill="freeze" /></tspan>
       <tspan opacity="0">E<animate attributeName="opacity" values="0;1" keyTimes="0;0.60" dur="10s" repeatCount="indefinite" fill="freeze" /></tspan>
-      <tspan opacity="0" fill="#E30613">_<animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite" />
+      <tspan opacity="0" fill="#E30613">_<animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite" /></tspan>
     </text>
   </g>
 
