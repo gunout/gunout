@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-FF2D95?style=flat-square&labelColor=0D001A" alt="Status" />
-  <img src="https://img.shields.io/badge/LOCATION-REUNION_ISLAND-FF69B4?style=flat-square&labelColor=0D001A" alt="Location" />
-  <img src="https://img.shields.io/badge/AVAILABILITY-HOMEWORK-FFB6D9?style=flat-square&labelColor=0D001A" alt="Availability" />
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-0055FF?style=flat-square&labelColor=00122E" alt="Status" />
+  <img src="https://img.shields.io/badge/LOCATION-REUNION_ISLAND-E30613?style=flat-square&labelColor=00122E" alt="Location" />
+  <img src="https://img.shields.io/badge/AVAILABILITY-HOMEWORK-FFFFFF?style=flat-square&labelColor=00122E" alt="Availability" />
 </p>
 
 <div align="center">
@@ -85,37 +85,37 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/gunout/meteo-spatiale">meteo-spatiale</a></h3>
-      <p>Outil d'automatisation Python pour la météo spatiale. <em>Shell · Python</em></p>
+      <h3>🛰️ <a href="https://github.com/gunout/meteo-spatiale">meteo-spatiale</a></h3>
+      <p>Outil d'automatisation Python pour la météo spatiale.</p>
       <p>
-        <img src="https://img.shields.io/badge/-Python-FF2D95?style=flat-square" />
-        <img src="https://img.shields.io/badge/-Shell-FF69B4?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Python-0055FF?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Shell-E30613?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>📡 <a href="https://github.com/gunout/radar-terminal-sat">radar-terminal-sat</a></h3>
-      <p>Radar satellite en terminal. <em>Python</em></p>
+      <p>Radar satellite et suivi orbital en terminal.</p>
       <p>
-        <img src="https://img.shields.io/badge/-Python-FF2D95?style=flat-square" />
-        <img src="https://img.shields.io/badge/-Data-FFB6D9?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Python-0055FF?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Data-00122E?style=flat-square" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/gunout/monitor-gunout">monitor-gunout</a></h3>
-      <p>Monitor de veille et d'actualités. <em>HTML · JS</em></p>
+      <h3>📊 <a href="https://github.com/gunout/monitor-gunout">monitor-gunout</a></h3>
+      <p>Dashboard de veille et d'actualités en temps réel.</p>
       <p>
-        <img src="https://img.shields.io/badge/-HTML-FF2D95?style=flat-square" />
-        <img src="https://img.shields.io/badge/-JavaScript-FF69B4?style=flat-square" />
+        <img src="https://img.shields.io/badge/-HTML-E30613?style=flat-square" />
+        <img src="https://img.shields.io/badge/-JavaScript-0055FF?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/gunout/recognition-faciale">recognition-faciale</a></h3>
-      <p>Scripts d'audit et de reconnaissance faciale. <em>Python</em></p>
+      <h3>💻 <a href="https://github.com/gunout/recognition-faciale">recognition-faciale</a></h3>
+      <p>Outil de détection et de reconnaissance faciale.</p>
       <p>
-        <img src="https://img.shields.io/badge/-Python-FF2D95?style=flat-square" />
-        <img src="https://img.shields.io/badge/-AI-FFB6D9?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Python-0055FF?style=flat-square" />
+        <img src="https://img.shields.io/badge/-OpenCV-E30613?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -130,13 +130,13 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=gunout&show_icons=true&hide_border=true&title_color=FF2D95&icon_color=FF69B4&text_color=FFB6D9&bg_color=0D001A&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gunout&layout=compact&hide_border=true&title_color=FF2D95&text_color=FFB6D9&bg_color=0D001A&langs_count=8" alt="Top Languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=gunout&show_icons=true&hide_border=true&title_color=0055FF&icon_color=E30613&text_color=00122E&bg_color=FFFFFF&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gunout&layout=compact&hide_border=true&title_color=0055FF&text_color=00122E&bg_color=FFFFFF&langs_count=8" alt="Top Languages" />
 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gunout&hide_border=true&background=0D001A&stroke=FF2D95&ring=FF69B4&fire=FF2D95&currStreakLabel=FFB6D9&sideLabels=FFB6D9&dates=FFB6D9" alt="Streak" width="60%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gunout&hide_border=true&background=FFFFFF&stroke=0055FF&ring=E30613&fire=E30613&currStreakLabel=00122E&sideLabels=00122E&dates=00122E" alt="Streak" width="60%" />
 </div>
 
 <!-- DIVIDER -->
@@ -148,7 +148,7 @@ Développeur orienté **automatisation et livraison rapide**. Je conçois des ou
 
 <p align="center">
   <a href="https://github.com/gunout">
-    <img src="https://img.shields.io/badge/GITHUB-gunout-0D001A?style=for-the-badge&logo=github&logoColor=white&labelColor=FF2D95" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GITHUB-gunout-00122E?style=for-the-badge&logo=github&logoColor=white&labelColor=0055FF" alt="GitHub" />
   </a>
 </p>
 
