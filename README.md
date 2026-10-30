@@ -3,19 +3,19 @@
 <!-- ============================================================ -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon_light.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/gunout/assets/images/divider_neon_light.svg" alt="Divider" />
 </p>
 
 <p align="center">
   <a href="https://gunout.github.io/?utm_source=github.com">
-    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/banner_neon_light.svg" alt="Banner" />
+    <img src="https://raw.githubusercontent.com/gunout/gunout/assets/images/banner_neon_light.svg" alt="Banner" />
   </a>
 </p>
 
 <!-- CARTE MATRIX UNIQUEMENT -->
 <p align="center">
   <a href="https://github.com/gunout">
-    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/profile_matrix_light.svg" alt="Matrix Profile Card" width="100%" />
+    <img src="https://raw.githubusercontent.com/gunout/gunout/assets/images/profile_matrix_light.svg" alt="Matrix Profile Card" width="100%" />
   </a>
 </p>
 
