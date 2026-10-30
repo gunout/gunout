@@ -1,30 +1,30 @@
 <!-- ============================================================ -->
-<!--  GUNOUT — FUTURISTIC NEON BLEU BLANC ROUGE PROFILE           -->
+<!--  GUNOUT — FUTURISTIC NEON BLEU BLANC ROUGE PROFILE (LIGHT)   -->
 <!-- ============================================================ -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon_light.svg" alt="Divider" />
 </p>
 
 <p align="center">
   <a href="https://gunout.github.io/?utm_source=github.com">
-    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/banner_neon.svg" alt="Banner" />
+    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/banner_neon_light.svg" alt="Banner" />
   </a>
 </p>
 
 <!-- CARTE MATRIX UNIQUEMENT -->
 <p align="center">
   <a href="https://github.com/gunout">
-    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/profile_matrix.svg" alt="Matrix Profile Card" width="100%" />
+    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/profile_matrix_light.svg" alt="Matrix Profile Card" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=800&color=0055FF&background=0D001A00&center=true&vCenter=true&random=true&width=800&lines=%E2%96%B6+Initializing+neon+protocol...;%E2%96%B6+Building+monitors+and+scrapers...;%E2%96%B6+Automating+veille+and+reporting...;%E2%96%B6+Shipping+projects+at+light+speed...;%E2%96%B6+System+online.+Welcome." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=800&color=0055FF&background=FFFFFF00&center=true&vCenter=true&random=true&width=800&lines=%E2%96%B6+Initializing+neon+protocol...;%E2%96%B6+Building+monitors+and+scrapers...;%E2%96%B6+Automating+veille+and+reporting...;%E2%96%B6+Shipping+projects+at+light+speed...;%E2%96%B6+System+online.+Welcome." alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon_light.svg" alt="Divider" />
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon_light.svg" alt="Divider" />
 </p>
 
 <h2 align="center">⚡ <code>whoami</code></h2>
@@ -46,16 +46,16 @@
 <p align="center">
   <samp>
     <span style="color:#0055FF;">🐍 Python & Automation</span> — Scrapers, monitors, dashboards<br>
-    <span style="color:#FFFFFF;">🌐 Web Development</span> — HTML, JavaScript, data visualization<br>
+    <span style="color:#00122E;">🌐 Web Development</span> — HTML, JavaScript, data visualization<br>
     <span style="color:#E30613;">🐚 Shell & Scripting</span> — Task automation, processing pipelines<br>
     <span style="color:#0055FF;">📊 Veille & Data</span> — News, markets, institutions, space<br>
-    <span style="color:#FFFFFF;">🚀 Rapid Shipping</span> — 47 repos in October 2026<br>
+    <span style="color:#00122E;">🚀 Rapid Shipping</span> — 47 repos in October 2026<br>
     <span style="color:#E30613;">🔭 Interests</span> — Aerospace, maritime, real estate, health, public policy
   </samp>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon_light.svg" alt="Divider" />
 </p>
 
 <h2 align="center">🛠️ <code>tech_stack</code></h2>
@@ -70,7 +70,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon_light.svg" alt="Divider" />
 </p>
 
 <h2 align="center">🚀 <code>recent_projects</code></h2>
@@ -82,7 +82,7 @@
 <h3 align="center">🛰️ Aerospace & Space</h3>
 <p align="center">
   <a href="https://github.com/gunout/meteo-spatiale"><img src="https://img.shields.io/badge/meteo--spatiale-Shell-0055FF?style=for-the-badge&logo=gnubash&logoColor=white" /></a>
-  <a href="https://github.com/gunout/radar-terminal-sat"><img src="https://img.shields.io/badge/radar--terminal--sat-Python-FFFFFF?style=for-the-badge&logo=python&logoColor=black" /></a>
+  <a href="https://github.com/gunout/radar-terminal-sat"><img src="https://img.shields.io/badge/radar--terminal--sat-Python-00122E?style=for-the-badge&logo=python&logoColor=white" /></a>
   <a href="https://github.com/gunout/carte-terminal-esa"><img src="https://img.shields.io/badge/carte--terminal--esa-HTML-E30613?style=for-the-badge&logo=html5&logoColor=white" /></a>
   <a href="https://github.com/gunout/encyclopedie-arianne"><img src="https://img.shields.io/badge/encyclopedie--arianne-JS-0055FF?style=for-the-badge&logo=javascript&logoColor=white" /></a>
 </p>
@@ -90,7 +90,7 @@
 <h3 align="center">📊 Monitors & Veille</h3>
 <p align="center">
   <a href="https://github.com/gunout/monitor-gunout"><img src="https://img.shields.io/badge/monitor--gunout-HTML-0055FF?style=for-the-badge&logo=html5&logoColor=white" /></a>
-  <a href="https://github.com/gunout/monitor-ue-reunion"><img src="https://img.shields.io/badge/monitor--ue--reunion-HTML-FFFFFF?style=for-the-badge&logo=html5&logoColor=black" /></a>
+  <a href="https://github.com/gunout/monitor-ue-reunion"><img src="https://img.shields.io/badge/monitor--ue--reunion-HTML-00122E?style=for-the-badge&logo=html5&logoColor=white" /></a>
   <a href="https://github.com/gunout/meta-monitor-europe"><img src="https://img.shields.io/badge/meta--monitor--europe-HTML-E30613?style=for-the-badge&logo=html5&logoColor=white" /></a>
   <a href="https://github.com/gunout/monitor-transparence-frais"><img src="https://img.shields.io/badge/monitor--transparence-HTML-0055FF?style=for-the-badge&logo=html5&logoColor=white" /></a>
 </p>
@@ -98,12 +98,12 @@
 <h3 align="center">💻 Tools & Automation</h3>
 <p align="center">
   <a href="https://github.com/gunout/recognition-faciale"><img src="https://img.shields.io/badge/recognition--faciale-Python-0055FF?style=for-the-badge&logo=python&logoColor=white" /></a>
-  <a href="https://github.com/gunout/lexique-json"><img src="https://img.shields.io/badge/lexique--json-Python-FFFFFF?style=for-the-badge&logo=python&logoColor=black" /></a>
+  <a href="https://github.com/gunout/lexique-json"><img src="https://img.shields.io/badge/lexique--json-Python-00122E?style=for-the-badge&logo=python&logoColor=white" /></a>
   <a href="https://github.com/gunout/scanner"><img src="https://img.shields.io/badge/scanner-JS-E30613?style=for-the-badge&logo=javascript&logoColor=white" /></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon_light.svg" alt="Divider" />
 </p>
 
 <h2 align="center">📈 <code>github_stats</code></h2>
@@ -113,24 +113,19 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gunout&theme=radical&mode=daily&hide_border=true&stroke=0055FF&background=0D001A&ring=FFFFFF&fire=E30613&currStreakLabel=0055FF" alt="streak graph"/>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=gunout&langs_count=6&theme=radical&hide_border=true&bg_color=0D001A&title_color=0055FF&text_color=FFFFFF" alt="top langs"/>
-  <img src="https://github-stats-extended.vercel.app/api/?username=gunout&show_icons=true&theme=radical&rank_icon=github&include_all_commits=true&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed&hide_border=true&bg_color=0D001A&title_color=0055FF&text_color=FFFFFF&icon_color=E30613" alt="stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gunout&theme=default&mode=daily&hide_border=true&stroke=0055FF&background=FFFFFF&ring=E30613&fire=E30613&currStreakLabel=0055FF&sideLabels=00122E&dates=00122E" alt="streak graph"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=gunout&langs_count=6&theme=default&hide_border=true&bg_color=FFFFFF&title_color=0055FF&text_color=00122E" alt="top langs"/>
+  <img src="https://github-stats-extended.vercel.app/api/?username=gunout&show_icons=true&theme=default&rank_icon=github&include_all_commits=true&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed&hide_border=true&bg_color=FFFFFF&title_color=0055FF&text_color=00122E&icon_color=E30613" alt="stats"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon_light.svg" alt="Divider" />
 </p>
 
-  <br/><br/>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/footer_neon.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/footer_neon.svg">
-    <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/footer_neon.svg" alt="Footer" width="100%" />
-  </picture>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/footer_neon_light.svg" alt="Footer" width="100%" />
+</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon_light.svg" alt="Divider" />
 </p>
