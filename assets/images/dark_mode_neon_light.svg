@@ -29,7 +29,7 @@
     <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Coins décoratifs (clignotants) -->
+  <!-- Coins décoratifs -->
   <g stroke="#E30613" stroke-width="3" fill="none" filter="url(#glow)">
     <path d="M28 50 h30 M28 50 v30">
       <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
@@ -59,59 +59,123 @@
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
   </text>
 
-  <!-- Panneau gauche : whoami -->
+  <!-- ============================================================ -->
+  <!-- PANNEAU GAUCHE : whoami — apparition séquencée, boucle 8s    -->
+  <!-- ============================================================ -->
   <g transform="translate(120,190)">
     <rect x="0" y="0" width="360" height="120" rx="12" fill="#FFFFFF"
           stroke="#0055FF" stroke-width="2" filter="url(#glow)">
       <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
     </rect>
-    <text x="20" y="34" font-family="monospace" font-size="14" fill="#0055FF">&gt; whoami</text>
-    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">Python &#183; Automation</text>
-    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">Web &#183; Data &#183; Veille</text>
-    <text x="20" y="102" font-family="monospace" font-size="13" fill="#E30613">&#9656; status: ONLINE</text>
 
-    <!-- Curseur clignotant après "status" -->
-    <text x="145" y="102" font-family="monospace" font-size="13" fill="#0055FF">
+    <!-- Ligne 1 : prompt whoami -->
+    <text x="20" y="34" font-family="monospace" font-size="14" fill="#0055FF" opacity="0">
+      &gt; whoami
+      <animate attributeName="opacity" values="0;0;1;1;0"
+               keyTimes="0;0.05;0.10;0.85;0.95" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Ligne 2 : Python / Automation -->
+    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E" opacity="0">
+      Python &#183; Automation
+      <animate attributeName="opacity" values="0;0;1;1;0"
+               keyTimes="0;0.12;0.17;0.85;0.95" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Ligne 3 : Web / Data / Veille -->
+    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E" opacity="0">
+      Web &#183; Data &#183; Veille
+      <animate attributeName="opacity" values="0;0;1;1;0"
+               keyTimes="0;0.20;0.25;0.85;0.95" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Ligne 4 : status ONLINE -->
+    <text x="20" y="102" font-family="monospace" font-size="13" fill="#E30613" opacity="0">
+      &#9656; status: ONLINE
+      <animate attributeName="opacity" values="0;0;1;1;0"
+               keyTimes="0;0.28;0.33;0.85;0.95" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Curseur clignotant -->
+    <text x="168" y="102" font-family="monospace" font-size="13" fill="#0055FF" opacity="0">
       _
-      <animate attributeName="opacity" values="0;1;0;1;0;1;0"
-               keyTimes="0;0.1;0.2;0.3;0.4;0.5;1"
-               dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;1;0;1;0;1;0;0"
+               keyTimes="0;0.30;0.33;0.35;0.40;0.45;0.50;0.55;0.60;1"
+               dur="8s" repeatCount="indefinite"/>
       <animate attributeName="fill" values="#0055FF;#00122E;#E30613;#0055FF"
                dur="3s" repeatCount="indefinite"/>
     </text>
   </g>
 
-  <!-- Panneau droit : stats -->
+  <!-- ============================================================ -->
+  <!-- PANNEAU DROIT : stats — apparition séquencée décalée, 8s     -->
+  <!-- ============================================================ -->
   <g transform="translate(520,190)">
     <rect x="0" y="0" width="360" height="120" rx="12" fill="#FFFFFF"
           stroke="#E30613" stroke-width="2" filter="url(#glow)">
       <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2s"
                begin="0.5s" repeatCount="indefinite"/>
     </rect>
-    <text x="20" y="34" font-family="monospace" font-size="14" fill="#E30613">&gt; stats</text>
-    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E">47 repos / October 2026</text>
-    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E">Rapid shipping mode</text>
-    <text x="20" y="102" font-family="monospace" font-size="13" fill="#0055FF">&#9656; light speed</text>
+
+    <!-- Ligne 1 : prompt stats -->
+    <text x="20" y="34" font-family="monospace" font-size="14" fill="#E30613" opacity="0">
+      &gt; stats
+      <animate attributeName="opacity" values="0;0;1;1;0"
+               keyTimes="0;0.10;0.15;0.85;0.95" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Ligne 2 : 47 repos -->
+    <text x="20" y="58" font-family="monospace" font-size="13" fill="#00122E" opacity="0">
+      47 repos / October 2026
+      <animate attributeName="opacity" values="0;0;1;1;0"
+               keyTimes="0;0.20;0.25;0.85;0.95" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Ligne 3 : rapid shipping -->
+    <text x="20" y="80" font-family="monospace" font-size="13" fill="#00122E" opacity="0">
+      Rapid shipping mode
+      <animate attributeName="opacity" values="0;0;1;1;0"
+               keyTimes="0;0.30;0.35;0.85;0.95" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Ligne 4 : light speed (pulsation) -->
+    <text x="20" y="102" font-family="monospace" font-size="13" fill="#0055FF" opacity="0">
+      &#9656; light speed
+      <animate attributeName="opacity" values="0;0;1;1;0"
+               keyTimes="0;0.40;0.45;0.85;0.95" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Curseur clignotant -->
+    <text x="150" y="102" font-family="monospace" font-size="13" fill="#E30613" opacity="0">
+      _
+      <animate attributeName="opacity" values="0;0;0;1;0;1;0;1;0;0"
+               keyTimes="0;0.42;0.45;0.47;0.52;0.57;0.62;0.67;0.72;1"
+               dur="8s" repeatCount="indefinite"/>
+    </text>
   </g>
 
-  <!-- Barre de progression animée -->
+  <!-- ============================================================ -->
+  <!-- BARRE DE PROGRESSION — synchronisée avec les panneaux         -->
+  <!-- ============================================================ -->
   <g transform="translate(120,330)">
     <rect x="0" y="0" width="760" height="8" rx="4" fill="#DCE6F5"/>
     <rect x="0" y="0" width="560" height="8" rx="4" fill="#0055FF" filter="url(#glow)">
-      <animate attributeName="width" values="0;560;560;0" dur="6s"
-               keyTimes="0;0.3;0.85;1" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;560;560;0"
+               keyTimes="0;0.05;0.45;0.85;0.95" dur="8s" repeatCount="indefinite"/>
     </rect>
-    <rect x="560" y="0" width="100" height="8" rx="4" fill="#00122E" opacity="0.9">
-      <animate attributeName="x" values="0;560;560;0" dur="6s"
-               keyTimes="0;0.3;0.85;1" repeatCount="indefinite"/>
+    <rect x="0" y="0" width="100" height="8" rx="4" fill="#00122E" opacity="0.9">
+      <animate attributeName="x" values="560;560;560;560;560"
+               keyTimes="0;0.05;0.45;0.85;0.95" dur="8s" repeatCount="indefinite"
+               calcMode="discrete"/>
     </rect>
-    <rect x="660" y="0" width="100" height="8" rx="4" fill="#E30613" filter="url(#glow)">
-      <animate attributeName="x" values="0;660;660;0" dur="6s"
-               keyTimes="0;0.3;0.85;1" repeatCount="indefinite"/>
+    <rect x="0" y="0" width="100" height="8" rx="4" fill="#E30613" filter="url(#glow)">
+      <animate attributeName="x" values="660;660;660;660;660"
+               keyTimes="0;0.05;0.45;0.85;0.95" dur="8s" repeatCount="indefinite"
+               calcMode="discrete"/>
     </rect>
   </g>
 
-  <!-- Petits indicateurs bleu/blanc/rouge pulsants en bas à droite -->
+  <!-- Indicateurs bleu/blanc/rouge pulsants -->
   <g transform="translate(900,340)">
     <circle cx="0" cy="0" r="3" fill="#0055FF">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
@@ -124,4 +188,3 @@
     </circle>
   </g>
 </svg>
-
